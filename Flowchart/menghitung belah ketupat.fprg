@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 05:26:55 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDU6MTQ6NDkgUE07MzI2NQ=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDU6MjY6NTUgUE07MTszMzcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d1, d2" type="Integer" array="False" size=""/>
+            <declare name="luas" type="Real" array="False" size=""/>
+            <input variable="d1"/>
+            <input variable="d2"/>
+            <assign variable="luas" expression="((d1*d2)/2)"/>
+            <output expression="luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

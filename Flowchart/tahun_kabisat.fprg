@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 06:37:09 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDY6MTE6MDcgUE07MzI1Nw=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDY6Mzc6MDkgUE07NTszMzc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tahun" type="Integer" array="False" size=""/>
+            <input variable="tahun"/>
+            <if expression="tahun % 400 == 0">
+                <then>
+                    <output expression="&quot;tahun kabisat&quot;" newline="True"/>
+                    <output expression="tahun" newline="True"/>
+                </then>
+                <else>
+                    <if expression="tahun % 4 == 0">
+                        <then>
+                            <output expression="&quot;tahun kabisat&quot;" newline="True"/>
+                            <output expression="tahun" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="tahun % 100 == 0">
+                                <then/>
+                                <else>
+                                    <output expression="&quot;bukan tahun kabisat&quot;" newline="True"/>
+                                    <output expression="tahun" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

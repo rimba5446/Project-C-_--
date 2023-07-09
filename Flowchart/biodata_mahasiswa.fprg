@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 05:48:31 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDU6NDE6NTcgUE07MzI2NA=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDU6NDg6MzEgUE07MTszMzcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama, npm, jurusan, alamat" type="String" array="False" size=""/>
+            <declare name="tahunlahir, tahunsekarang, usia" type="Integer" array="False" size=""/>
+            <input variable="nama"/>
+            <input variable="npm"/>
+            <input variable="jurusan"/>
+            <input variable="alamat"/>
+            <input variable="tahunlahir"/>
+            <input variable="tahunsekarang"/>
+            <assign variable="usia" expression="tahunlahir - tahunsekarang"/>
+            <output expression="nama" newline="True"/>
+            <output expression="npm" newline="True"/>
+            <output expression="jurusan" newline="True"/>
+            <output expression="alamat" newline="True"/>
+            <output expression="usia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

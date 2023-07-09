@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 07:18:42 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDc6MTM6NDggUE07MzI2NQ=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDc6MTg6NDIgUE07MTszMzcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jarijari, tinggi, luas, volume" type="Integer" array="False" size=""/>
+            <input variable="jarijari"/>
+            <input variable="tinggi"/>
+            <assign variable="luas" expression="2 * (22.0/7.0) * jarijari * (jarijari + tinggi)"/>
+            <assign variable="volume" expression="(22.0/7.0) * tinggi * jarijari * jarijari"/>
+            <output expression="luas" newline="True"/>
+            <output expression="volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

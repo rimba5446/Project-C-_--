@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 06:45:40 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDY6Mzg6MTggUE07MzI2OA=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDY6NDU6NDAgUE07MjszMzcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="panjang, lebar, tinggi, luas" type="Integer" array="False" size=""/>
+            <input variable="panjang"/>
+            <input variable="lebar"/>
+            <input variable="tinggi"/>
+            <assign variable="luas" expression="((2*panjang * lebar) + (2*panjang * tinggi) + (2*tinggi * lebar))"/>
+            <output expression="luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

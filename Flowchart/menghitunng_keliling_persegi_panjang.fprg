@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 06:47:15 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDY6Mzg6MTggUE07MzI2OA=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDY6NDc6MTUgUE07NDszMzc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="panjang, lebar, tinggi, keliling" type="Integer" array="False" size=""/>
+            <input variable="panjang"/>
+            <input variable="lebar"/>
+            <input variable="tinggi"/>
+            <assign variable="keliling" expression="4*(panjang + lebar + tinggi)"/>
+            <output expression="keliling" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

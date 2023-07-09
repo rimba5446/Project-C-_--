@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 07:50:00 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDc6NDI6MTAgUE07MzI1Ng=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDc6NTA6MDAgUE07MTszMzYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="panjang, alas, tinggi, luassegitiga" type="Integer" array="False" size=""/>
+            <declare name="luaslingkaran, jari" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukan Nilai Alas&quot;" newline="True"/>
+            <input variable="alas"/>
+            <output expression="&quot;Masukan Nilai Tinggi&quot;" newline="True"/>
+            <input variable="tinggi"/>
+            <output expression="&quot;Masukan Nilai Jari&quot;" newline="True"/>
+            <input variable="jari"/>
+            <assign variable="luassegitiga" expression="(0.5*alas*tinggi)"/>
+            <assign variable="luaslingkaran" expression="(3.14*jari*jari)"/>
+            <output expression="&quot;Luas Segitiga&quot;" newline="True"/>
+            <output expression="luassegitiga" newline="True"/>
+            <output expression="&quot;Luas Lingkaran&quot;" newline="True"/>
+            <output expression="luaslingkaran" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

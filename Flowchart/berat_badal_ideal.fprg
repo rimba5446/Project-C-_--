@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 06:59:20 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDY6NDg6MjkgUE07MzI3MQ=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDY6NTk6MjAgUE07MTszMzcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="beratbadan, giji, tinggibadan, beratideal, tahunlahir, tahunsekarang, umur" type="Integer" array="False" size=""/>
+            <declare name="nama" type="String" array="False" size=""/>
+            <input variable="nama"/>
+            <input variable="tahunlahir"/>
+            <input variable="tahunsekarang"/>
+            <input variable="beratbadan"/>
+            <input variable="tinggibadan"/>
+            <assign variable="beratideal" expression="((tinggibadan - 100) - (tinggibadan - 100)* 0.1)"/>
+            <assign variable="umur" expression="(tahunsekarang - tahunlahir)"/>
+            <output expression="&quot;Nama Anda :&quot;" newline="True"/>
+            <output expression="nama" newline="True"/>
+            <output expression="&quot;Umur Anda&quot;" newline="True"/>
+            <output expression="umur" newline="True"/>
+            <output expression="&quot;Berat Badan Ideal&quot;" newline="True"/>
+            <output expression="beratideal" newline="True"/>
+            <if expression="beratideal&lt;=2 &amp;&amp; beratbadan&gt;=-2">
+                <then>
+                    <output expression="&quot;Berat badan anda ideal&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Berat badan anda  kurang ideal&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

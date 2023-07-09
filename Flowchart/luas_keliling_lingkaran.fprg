@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 07:13:03 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDY6NTk6NTggUE07MzI3NQ=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDc6MTM6MDMgUE07MTszMzY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="luaslingkaran, kelilinglingkaran" type="Real" array="False" size=""/>
+            <declare name="jarijari" type="Integer" array="False" size=""/>
+            <input variable="jarijari"/>
+            <assign variable="luaslingkaran" expression="3.14*jarijari*jarijari"/>
+            <assign variable="kelilinglingkaran" expression="2*3.14*jarijari*jarijari"/>
+            <output expression="luaslingkaran" newline="True"/>
+            <output expression="kelilinglingkaran" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

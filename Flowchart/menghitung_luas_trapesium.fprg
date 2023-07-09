@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Raykujan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-09 07:42:04 PM"/>
+        <attribute name="created" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDc6Mzk6MzUgUE07MzI2OQ=="/>
+        <attribute name="edited" value="UmF5a3VqYW47REVTS1RPUC1WSlJUU09DOzIwMjMtMDctMDk7MDc6NDI6MDQgUE07MTszMzY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="siku1, siku2, tinggi, luas" type="Integer" array="False" size=""/>
+            <input variable="siku1"/>
+            <input variable="siku2"/>
+            <input variable="tinggi"/>
+            <assign variable="luas" expression="((siku1+siku2)*tinggi)/2"/>
+            <output expression="&quot;Luas Trapesium adalah&quot;" newline="True"/>
+            <output expression="luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

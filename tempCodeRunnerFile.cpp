@@ -1,0 +1,1 @@
+(22.0/7.0) * tinggi * jari2 * jari2 

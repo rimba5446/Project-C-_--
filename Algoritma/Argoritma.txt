@@ -1,0 +1,194 @@
+Berikut adalah algoritma untuk menentukan apakah sebuah bilangan termasuk bilangan asli, genap, ganjil, dan prima:
+
+Minta pengguna untuk memasukkan bilangan yang akan diperiksa.
+Periksa apakah bilangan tersebut lebih dari nol. Jika tidak, maka bilangan bukanlah bilangan asli.
+Periksa apakah bilangan tersebut habis dibagi dua (genap) dengan menggunakan operator modulo (%). Jika sisa pembagian bilangan dengan dua adalah nol, maka bilangan tersebut genap. Jika tidak, lanjutkan ke langkah berikutnya.
+Periksa apakah bilangan tersebut habis dibagi tiga (ganjil) dengan menggunakan operator modulo (%). Jika sisa pembagian bilangan dengan tiga adalah nol, maka bilangan tersebut ganjil. Jika tidak, lanjutkan ke langkah berikutnya.
+Periksa apakah bilangan tersebut lebih dari satu. Jika bilangan kurang dari atau sama dengan satu, maka bilangan bukanlah bilangan prima.
+Lakukan iterasi dari 2 hingga akar kuadrat dari bilangan tersebut.
+Periksa apakah bilangan tersebut habis dibagi dengan bilangan iterasi menggunakan operator modulo (%). Jika sisa pembagian adalah nol, maka bilangan bukanlah bilangan prima. Kembali ke langkah 5.
+Jika bilangan berhasil melewati langkah 6, maka bilangan tersebut adalah bilangan prima.
+
+=====================
+
+berikut Adalah algoritma untuk menentukan apakah tahun kabisat/non kabisat
+
+Baca tahun dari input.
+Periksa apakah tahun itu dapat dibagi habis oleh 4.
+Jika tahun tersebut tidak habis dibagi 4, berarti bukan tahun kabisat. Langsung lanjut ke langkah 7.
+Jika tahun tersebut habis dibagi 4, periksa apakah tahun itu juga habis dibagi 100.
+Jika tahun itu habis dibagi 100, periksa apakah tahun itu juga habis dibagi 400.
+Jika tahun itu habis dibagi 400, berarti tahun itu adalah tahun kabisat. Jika tidak, berarti bukan tahun kabisat.
+Tampilkan hasil ke layar.
+
+=====================
+
+berikut adalah algoritma untuk menghitung persegi panjang
+
+Masukkan nilai panjang persegi panjang (p)
+Masukkan nilai lebar persegi panjang (l)
+Hitung keliling dengan rumus K = 2 * (p + l)
+Tampilkan nilai keliling
+
+=====================
+
+berikut adalah algoritma untuk Kalkulator sederhana dengan Fungsinya
+
+Minta pengguna memasukkan pilihan operasi matematika (penjumlahan, pengurangan, perkalian, atau pembagian).
+Jika pengguna memilih operasi yang valid, lanjutkan ke langkah berikutnya. Jika tidak, tampilkan pesan kesalahan dan kembali ke langkah 1.
+Minta pengguna memasukkan dua angka yang akan dioperasikan.
+Jika kedua angka valid, lanjutkan ke langkah berikutnya. Jika tidak, tampilkan pesan kesalahan dan kembali ke langkah 3.
+Lakukan operasi matematika yang sesuai berdasarkan pilihan pengguna.
+Tampilkan hasil operasi matematika ke layar.
+
+=====================
+
+Berikut adalah algoritma untuk menghitung luas dan keliling lingkaran:
+
+Masukkan nilai jari-jari lingkaran (r)
+Hitung luas lingkaran dengan rumus: luas = π * r^2
+Hitung keliling lingkaran dengan rumus: keliling = 2 * π * r
+Tampilkan luas lingkaran
+Tampilkan keliling lingkaran
+
+=====================
+
+Berikut adalah algoritma untuk menghitung luas trapesium:
+
+Masukkan nilai panjang sisi sejajar pertama (a) dari trapesium.
+Masukkan nilai panjang sisi sejajar kedua (b) dari trapesium.
+Masukkan nilai tinggi (h) trapesium.
+Hitung luas trapesium menggunakan rumus: luas = ((a + b) / 2) * h.
+Tampilkan nilai luas trapesium.
+
+=====================
+
+Berikut adalah algoritma untuk menghitung luas dan volume tabung:
+
+Masukkan nilai jari-jari tabung (r).
+Masukkan nilai tinggi tabung (h).
+Hitung luas tabung dengan rumus:
+a).Hitung luas alas tabung dengan rumus luas_alas = π * r^2.
+b).Hitung luas selimut tabung dengan rumus luas_selimut = 2 * π * r * h.
+c).Hitung luas tabung dengan rumus luas_tabung = 2 * luas_alas + luas_selimut.
+Hitung volume tabung dengan rumus volume = luas_alas * h.
+Tampilkan luas tabung dan volume tabung.
+
+=====================
+
+berikut adalah algoritma untuk menghitung luas balok
+
+Masukkan panjang balok (p)
+Masukkan lebar balok (l)
+Masukkan tinggi balok (t)
+Hitung luas balok dengan rumus: luas = 2 * ((p * l) + (p * t) + (l * t))
+Tampilkan luas balok
+
+=====================
+
+Berikut adalah algoritma untuk menghitung volume balok dan kubus:
+
+Algoritma untuk menghitung volume balok:
+
+Masukkan panjang balok (p)
+Masukkan lebar balok (l)
+Masukkan tinggi balok (t)
+Hitung volume balok dengan rumus volume = p * l * t
+Tampilkan volume balok
+
+Algoritma untuk menghitung volume kubus:
+
+Masukkan sisi kubus (s)
+Hitung volume kubus dengan rumus volume = s * s * s atau volume = s^3
+Tampilkan volume kubus
+
+=====================
+
+Berikut adalah algortima untuk biodata mahasiswa
+
+Minta pengguna memasukkan nama mahasiswa.
+Simpan nama mahasiswa dalam variabel "nama".
+Minta pengguna memasukkan tanggal lahir mahasiswa.
+Minta pengguna memasukkan npm mahasiswa.
+Simpan npm mahasiswa dalam variabel "npm".
+Simpan tanggal lahir mahasiswa dalam variabel "tanggal_lahir".
+Minta pengguna memasukkan alamat mahasiswa.
+Simpan alamat mahasiswa dalam variabel "alamat".
+Minta pengguna memasukkan nomor telepon mahasiswa.
+Simpan nomor jurusan mahasiswa dalam variabel "jurusan".
+Minta pengguna memasukkan tahun sekarang.
+Simpan tahun masuk mahasiswa dalam variabel "tahun_sekarang".
+Tampilkan semua informasi biodata mahasiswa yang telah diinput.
+
+
+====================
+
+
+Berikut ini adalah algoritma untuk menghitung luas lingkaran dan luas segitiga:
+
+Algoritma menghitung luas lingkaran:
+
+Masukkan nilai jari-jari lingkaran (r)
+Hitung luas lingkaran dengan rumus luas = 3.14 * r^2
+Tampilkan hasil luas lingkaran
+
+
+Algoritma menghitung luas segitiga:
+
+Masukkan nilai panjang alas segitiga (a)
+Masukkan nilai tinggi segitiga (t)
+Hitung luas segitiga dengan rumus luas = 0.5 * a * t
+Tampilkan hasil luas segitiga
+
+
+====================
+
+Berikut adalah contoh algoritma untuk menghitung berat badan ideal:
+
+Masukan Nama lengkap
+Masukan Tahun Lahir
+Masukan Tahun Sekarang
+Masukkan tinggi badan dalam satuan meter (misalnya, tinggi = 1.7)
+Hitung Umur rumus : tahun lahir - tahun sekarang 
+Hitung berat badan ideal untuk pria dengan rumus: berat_badan_ideal = (tinggi - 100) - ((tinggi - 100) * 10/100)
+Hitung berat badan ideal untuk wanita dengan rumus: berat_badan_ideal = (tinggi - 100) - ((tinggi - 100) * 15/100)
+Tampilkan hasil berat_badan_ideal
+
+
+====================
+
+Berikut adalah algoritma untuk menghitung luas belah ketupat:
+
+Masukkan nilai panjang diagonal pertama (d1) dari belah ketupat
+Masukkan nilai panjang diagonal kedua (d2) dari belah ketupat
+Hitung luas belah ketupat dengan rumus: Luas = (d1 * d2) / 2
+Tampilkan nilai luas belah ketupat
+
+====================
+
+
+Algoritma untuk menentukan bilangan Fibonacci adalah sebagai berikut:
+
+Mulai dengan dua variabel, "a" dan "b", dengan nilai awal 0 dan 1.
+Baca nilai "n" sebagai input dari pengguna, yang merupakan indeks bilangan Fibonacci yang ingin ditentukan.
+Jika "n" sama dengan 0, cetak "0" dan berhenti.
+Jika "n" sama dengan 1, cetak "1" dan berhenti.
+Untuk nilai indeks "i" dari 2 hingga "n":
+Hitung nilai "c" sebagai penjumlahan dari "a" dan "b".
+Tetapkan nilai "a" menjadi "b".
+Tetapkan nilai "b" menjadi "c".
+Cetak nilai "b" sebagai bilangan Fibonacci ke-"n".
+
+
+====================
+
+Berikut adalah algoritma untuk menghitung luas dan keliling jajar genjang:
+
+Masukkan panjang alas jajar genjang (a)
+Masukkan tinggi jajar genjang (t)
+Masukkan panjang sisi miring jajar genjang (s)
+Hitung luas jajar genjang dengan rumus: luas = a * t
+Hitung keliling jajar genjang dengan rumus: keliling = 2 * (a + s)
+Tampilkan luas jajar genjang
+Tampilkan keliling jajar genjang
+
