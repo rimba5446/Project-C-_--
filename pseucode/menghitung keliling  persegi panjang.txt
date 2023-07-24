@@ -1,0 +1,9 @@
+Function Main
+    Declare Integer panjang, lebar, tinggi, keliling
+    
+    Input panjang
+    Input lebar
+    Input tinggi
+    Assign keliling = 4*(panjang + lebar + tinggi)
+    Output keliling
+End

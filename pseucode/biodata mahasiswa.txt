@@ -1,0 +1,17 @@
+Function Main
+    Declare String nama, npm, jurusan, alamat
+    Declare Integer tahunlahir, tahunsekarang, usia
+    
+    Input nama
+    Input npm
+    Input jurusan
+    Input alamat
+    Input tahunlahir
+    Input tahunsekarang
+    Assign usia = tahunlahir - tahunsekarang
+    Output nama
+    Output npm
+    Output jurusan
+    Output alamat
+    Output usia
+End

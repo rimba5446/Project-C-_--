@@ -1,0 +1,10 @@
+Function Main
+    Declare Real luaslingkaran, kelilinglingkaran
+    Declare Integer jarijari
+    
+    Input jarijari
+    Assign luaslingkaran = 3.14*jarijari*jarijari
+    Assign kelilinglingkaran = 2*3.14*jarijari*jarijari
+    Output luaslingkaran
+    Output kelilinglingkaran
+End

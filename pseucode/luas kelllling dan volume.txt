@@ -1,0 +1,14 @@
+Function Main
+    Declare Integer jarijari, tinggi, luas, volume
+    
+    Output "Masukan Nilai Jari-Jari"
+    Input jarijari
+    Output "Masukan Nilai Tinggi"
+    Input tinggi
+    Assign luas = 2 * (22.0/7.0) * jarijari * (jarijari + tinggi)
+    Assign volume = (22.0/7.0) * tinggi * jarijari * jarijari
+    Output "Diketahui Luas Adalah"
+    Output luas
+    Output "Diketahui Volume Adalah"
+    Output volume
+End

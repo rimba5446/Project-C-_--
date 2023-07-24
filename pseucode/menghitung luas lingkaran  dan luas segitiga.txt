@@ -1,0 +1,17 @@
+Function Main
+    Declare Integer panjang, alas, tinggi, luassegitiga
+    Declare Real luaslingkaran, jari
+    
+    Output "Masukan Nilai Alas"
+    Input alas
+    Output "Masukan Nilai Tinggi"
+    Input tinggi
+    Output "Masukan Nilai Jari"
+    Input jari
+    Assign luassegitiga = (0.5*alas*tinggi)
+    Assign luaslingkaran = (3.14*jari*jari)
+    Output "Luas Segitiga"
+    Output luassegitiga
+    Output "Luas Lingkaran"
+    Output luaslingkaran
+End

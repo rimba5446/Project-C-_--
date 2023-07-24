@@ -1,0 +1,23 @@
+Function Main
+    Declare Integer beratbadan, giji, tinggibadan, beratideal, tahunlahir, tahunsekarang, umur
+    Declare String nama
+    
+    Input nama
+    Input tahunlahir
+    Input tahunsekarang
+    Input beratbadan
+    Input tinggibadan
+    Assign beratideal = ((tinggibadan - 100) - (tinggibadan - 100)* 0.1)
+    Assign umur = (tahunsekarang - tahunlahir)
+    Output "Nama Anda :"
+    Output nama
+    Output "Umur Anda"
+    Output umur
+    Output "Berat Badan Ideal"
+    Output beratideal
+    If beratideal<=2 && beratbadan>=-2
+        Output "Berat badan anda ideal"
+    Else
+        Output "Berat badan anda  kurang ideal"
+    End
+End

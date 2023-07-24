@@ -1,0 +1,20 @@
+Function Main
+    Declare Integer tahun
+    
+    Input tahun
+    If tahun % 400 == 0
+        Output "tahun kabisat"
+        Output tahun
+    Else
+        If tahun % 4 == 0
+            Output "tahun kabisat"
+            Output tahun
+        Else
+            If tahun % 100 == 0
+            Else
+                Output "bukan tahun kabisat"
+                Output tahun
+            End
+        End
+    End
+End

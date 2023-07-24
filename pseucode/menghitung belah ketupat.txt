@@ -1,0 +1,9 @@
+Function Main
+    Declare Integer panjang, lebar, tinggi, luas
+    
+    Input panjang
+    Input lebar
+    Input tinggi
+    Assign luas = ((2*panjang * lebar) + (2*panjang * tinggi) + (2*tinggi * lebar))
+    Output luas
+End
