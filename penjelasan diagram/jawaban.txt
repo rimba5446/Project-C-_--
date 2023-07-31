@@ -1,0 +1,3 @@
+kode program di compiler
+compiler merubah nya ke dalam bahasa mesin,
+program dapat di jalankan 
